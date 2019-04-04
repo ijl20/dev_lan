@@ -4,10 +4,10 @@ Configuration instructions for an Ubuntu workstation with two ethernet ports, on
 connected to the local network / WAN as usual and the other providing WAN
 connectivity to a NAT / DHCP ethernet segment suitable for development use.
 
-# Terminology
+## Terminology
 
-We'll refer to the Linux box providing the NAT routing / DHCP support as the
-*workstation*.
+*workstation*: the Linux box providing the connectivity to the development subnet
+and the WAN NAT routing / DHCP support.
 
 *development subnet*: the ethernet segment connected to the *secondary* ethernet interface
 using local IP addresses, i.e. 192.168.1.X (or whatever you choose).
