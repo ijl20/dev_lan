@@ -1,0 +1,14 @@
+# interfaces(5) file used by ifup(8) and ifdown(8)
+auto lo
+iface lo inet loopback
+
+auto enp0s31f6
+iface enp0s31f6 inet dhcp
+
+auto enxa0cec8c234c7
+iface enxa0cec8c234c7 inet static
+    address 192.168.1.1
+    netmask 255.255.255.0
+    post-up /etc/init.d/isc-dhcp-server start
+    post-down /etc/init.d/isc-dhcp-server stop
+
