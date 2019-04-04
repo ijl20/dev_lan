@@ -42,3 +42,4 @@ the dhcp server.
 
 ## Network diagram
 
+![network diagram](https://github.com/ijl20/dev_lan/blob/master/network_diagram.png "Network Diagram")
